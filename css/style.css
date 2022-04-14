@@ -49,7 +49,6 @@ nav button {
     padding-left:30%;
 } 
 
-
 p {
     font-size:24px;
     font-family: Source sans pro;
@@ -66,7 +65,7 @@ p {
 }
 
 .logo {
-    width: 25%;
+    width: 25.5%;
     padding: 2%;
     padding-right: 2%;
     margin-right: 8%;
@@ -78,6 +77,18 @@ p {
     font-family:gopher, sans-serif;
     font-size: 36px;
     text-align: center;
+}
+
+.link {
+    font-size: 36px;
+    font-family:gopher, sans-serif;
+    color:#353D87;
+    padding-bottom: 2cm;
+    transition-duration: .1s;
+}
+
+.link:hover{
+    color:#5FA47B;
 }
 
 .abt {
@@ -92,26 +103,6 @@ p {
 .contact {
     background-color: #C2663D;
     margin: 2%;
-}
-
-.read-more {
-    text-align: center;
-    align-items: center;
-    margin-top: 4%;
-    margin-bottom: 2%;
-}
-
-.read-more button {
-    width: 20%;
-}
-
-.parent-container {
-    margin-bottom: 5%;
-    margin-left: 2%;
-    margin-right: 2%;
-    height: 80%;
-    display: flex;
-    flex-direction: row-reverse;
 }
 
 .grid-container-work {
@@ -151,6 +142,11 @@ p {
     padding-left: 2%;
 }
 
+.haowu-button {
+    background-color: #C2663D;
+    margin-top: 6%;
+}
+
 .haowu {
     padding-left: 25%;
 }
@@ -172,12 +168,6 @@ p {
     width: 20%;
 }
 
-.paragraph {
-    padding-left: 4%;
-    padding-bottom: 2%;
-    padding-top: 2%;
-}
-
 .self-img {
     padding: 0.1%;
     width:70%;
@@ -193,15 +183,46 @@ p {
     font-size: 30px;
 }
 
+.scalable{
+    transition-duration: .2s;
+    }
+    
+    .scalable:hover{
+    transform: scale(1.25);
+    cursor:pointer;
+    }
+
 .rspca-button {
     background-color: #EBB45A;
     margin-top: 6%;
 }
 
-.haowu-button {
-    background-color: #C2663D;
-    margin-top: 6%;
+.read-more {
+    text-align: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
 }
+
+.read-more button {
+    width: 20%;
+}
+
+.parent-container {
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.paragraph {
+    padding-left: 4%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
 
 @font-face {
     font-family: 'gopher';
