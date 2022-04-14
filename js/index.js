@@ -1,8 +1,12 @@
-console.log("your index.js file is loaded correctly");
 
-$('abt').click(function() {
-  $(this).toggleClass('clicked');
-  $('button p').text(function(i, text) {
-    return text === "SENT!" ? "SEND MSG" : "SENT!";
-  });
+$(".abt").on("click", function(){
+  $(this).css("background-color", "#437256");
+});
+
+$(".work").on("click", function(){
+  $(this).css("background-color", "#DF9823");
+});
+
+$(".contact").on("click", function(){
+  $(this).css("background-color", "#D15219");
 });

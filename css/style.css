@@ -187,10 +187,10 @@ p {
     transition-duration: .2s;
     }
     
-    .scalable:hover{
+.scalable:hover{
     transform: scale(1.25);
     cursor:pointer;
-    }
+}
 
 .rspca-button {
     background-color: #EBB45A;
