@@ -4,7 +4,7 @@ $(".abt").on("click", function(){
 });
 
 $(".work").on("click", function(){
-  $(this).css("background-color", "#DF9823");
+  $(this).css("background-color", "#2431AC");
 });
 
 $(".contact").on("click", function(){
