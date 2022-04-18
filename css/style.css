@@ -57,6 +57,20 @@ p {
     margin-bottom: 2%;
 }
 
+.mockup{
+    height: 330px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mockup-mobile{
+    height: 400px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align:top;
@@ -103,6 +117,12 @@ p {
 .footer-link-green:hover {
     color:#5FA47B;
     cursor:pointer;
+}
+
+.footer-link-green:click {
+    color:#5FA47B;
+    cursor:pointer;
+    text-decoration: underline;
 }
 
 .footer-link-orange {
@@ -186,6 +206,11 @@ p {
 
 .haowu-button {
     background-color: #C2663D;
+    margin-top: 6%;
+}
+
+.ato-button{
+    background-color: #5FA47B;
     margin-top: 6%;
 }
 
