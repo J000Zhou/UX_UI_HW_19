@@ -32,6 +32,19 @@ footer ul {
     flex-direction:column;
 }
 
+h2 {
+    text-align: center;
+    font-family:gopher, sans-serif;
+    font-size: 48px;
+}
+
+h3 {
+    text-align: left;
+    font-family:gopher, sans-serif;
+    font-size: 36px;
+}
+
+
 nav {
     width:60%;
     padding:2%;
@@ -57,6 +70,43 @@ p {
     margin-bottom: 2%;
 }
 
+.breadcrumbs li a{
+    font-size: 24px;
+    font-family:gopher, sans-serif;
+    font-style:italic;
+    color:#000000;
+    padding-bottom: 2cm;
+    transition-duration: .1s;
+}
+
+.breadcrumbs li a:hover{
+    color:#353D87;
+}
+
+.breadcrumbs li {
+    display: inline;
+}
+
+.breadcrumbs li+li:before {
+    font-size: 18px;
+    font-family:gopher, sans-serif;
+    font-style:italic;
+    color:#000000;
+    padding: 36px;
+    content:">>";
+}
+
+.breadcrumbs {
+    text-align: center;
+    list-style: none;
+    padding-bottom: 16px;
+}
+
+.ato-button{
+    background-color: #5FA47B;
+    margin-top: 6%;
+}
+
 .mockup{
     height: 330px;
     padding-left: 10px;
@@ -78,6 +128,13 @@ p {
     margin-top: 2%;
 }
 
+.left-align {
+    padding-left: 180px;
+    margin-left: 50px;
+    padding-right: 180px;
+    margin-right: 50px;
+}
+
 .logo {
     width: 25.5%;
     padding: 2%;
@@ -86,12 +143,7 @@ p {
     text-align: center;
 }
 
-.line {
-    font-weight:bold;
-    font-family:gopher, sans-serif;
-    font-size: 36px;
-    text-align: center;
-}
+
 
 .link {
     font-size: 36px;
@@ -119,7 +171,7 @@ p {
     cursor:pointer;
 }
 
-.footer-link-green:click {
+.footer-link-green::after {
     color:#5FA47B;
     cursor:pointer;
     text-decoration: underline;
@@ -204,13 +256,14 @@ p {
     padding-left: 2%;
 }
 
-.haowu-button {
-    background-color: #C2663D;
-    margin-top: 6%;
+.grid-container-intro {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 300px;
 }
 
-.ato-button{
-    background-color: #5FA47B;
+.haowu-button {
+    background-color: #C2663D;
     margin-top: 6%;
 }
 
@@ -218,8 +271,11 @@ p {
     padding-left: 25%;
 }
 
-.line p {
-    padding-left: 10%;
+.line {
+    text-align: center;
+    font-weight:bold;
+    font-family:gopher, sans-serif;
+    font-size: 36px;
 }
 
 .img {
@@ -241,7 +297,13 @@ p {
     height: 40%;
 }
 
-.self-intro {
+.self-img2 {
+    height:500px;
+    width: 500px;
+    padding-left: 90px;
+}
+
+.self-intro{
     align-self: left;
     width: 50%;
     padding-left: 5%;
@@ -259,6 +321,11 @@ p {
     cursor:pointer;
 }
 
+.secondary-header {
+    display: inline-block;
+    text-align: center;
+}
+
 .rspca-button {
     background-color: #EBB45A;
     margin-top: 6%;
@@ -273,6 +340,12 @@ p {
 
 .read-more button {
     width: 20%;
+}
+
+.resume-button {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: #C2663D;
 }
 
 .parent-container {
